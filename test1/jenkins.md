@@ -3,8 +3,8 @@
 > This document assumes that you are familiar with Jenkins pipelines at a basic level. To get the basics and setup Jenkins you can refer [article](https://jenkins.io/doc/).
 	
 Walkthrough is divided into two parts
-1. Import AzSDK Plugin in Jenkins
-2. Run SVT on resources in Jenkins pipeline
+1. [Import AzSDK Plugin in Jenkins](jenkins.md#import-azsdk-plugin-in-jenkins)
+2. [Run SVT on resources in Jenkins pipeline](jenkins.md#run-svt-on-resources-in-jenkins-pipeline)
 	
 > Note : AzSDK Plugin requires PowerShell to be present on Jenkins Server so currently plugin is supported for Windows machines only.
 > 	
