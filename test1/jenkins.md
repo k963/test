@@ -3,13 +3,13 @@
 > This document assumes that you are familiar with Jenkins pipelines at a basic level. To get the basics and setup Jenkins you can refer [article](https://jenkins.io/doc/).
 	
 Walkthrough is divided into two parts
-1. How to import AzSDK Plugin in Jenkins
-2. How to run SVT on resources in Jenkins pipeline
+1. Import AzSDK Plugin in Jenkins
+2. Run SVT on resources in Jenkins pipeline
 	
 > Note : AzSDK Plugin requires PowerShell to be present on Jenkins Server so currently plugin is supported for Windows machines only.
 > 	
 
-### How to import AzSDK Plugin in Jenkins
+### Import AzSDK Plugin in Jenkins
 	
 Currently AzSDK Jenkins Plugin is not hosted on Jenkins community repositories. You can use Jenkins web UI to upload this plugin(Azure-Secure-DevOps-Kit.hpi file) to Jenkins or place it in '$JENKINS_HOME/plugins' location.
 	
@@ -25,7 +25,7 @@ Currently AzSDK Jenkins Plugin is not hosted on Jenkins community repositories. 
 After successful installation you can start using plugin.  
  
 ![03_Install_Plugin](../Images/03_Install_Plugin.png)
-### How to run SVT on resources in Jenkins pipeline
+### Run SVT on resources in Jenkins pipeline
 	
 - #### Step-1: Configure Service Principal (SPN) credentials
     a. Go to Home Page -->  Credentials --> System --> Global Credentials  --> Click on "Add Credentials" --> Select credential type "Microsoft Azure Service Principal"
