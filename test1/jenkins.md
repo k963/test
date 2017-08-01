@@ -51,16 +51,16 @@ After successful installation you can start using plugin.
 ![03_Input_Parameter](../Images/03_Input_Parameter.png)	
 - #### Step-5: (Optional) Setup connectivity from CICD to OMS.
 	The OMS workspace information can be provided using below steps:
-	 a.  Create OMS workspace credentials  
+	- Create OMS workspace credentials  
 		**Go to:** Home Page -->  Credentials --> System --> Global credentials  --> Click on "Add Credentials" --> Select credential type "OMS Details"  
 		Provide OMS details and click Ok
 		
    
   ![03_Create_OMS](../Images/03_Create_OMS.png)  
 
-b.  Provide OMS Credentials Id in build step  
+	- Provide OMS Credentials Id in build step  
 
-![03_Provide_OMS_Cred](../Images/03_Provide_OMS_Cred.png)	
+  ![03_Provide_OMS_Cred](../Images/03_Provide_OMS_Cred.png)	
 - #### Step-6: Save the Job 
 
 ![03_Save_Job](../Images/03_Save_Job.png)
