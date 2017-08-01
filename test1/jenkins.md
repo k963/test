@@ -70,8 +70,8 @@ After successful installation you can start using plugin.
  
  
  
-![03_Trigger_Build_1](../Images/03_Trigger_Build_1.png)	
-![03_Trigger_Build_2](../Images/03_Trigger_Build_2.png)	
+![03_Trigger_Build_1](../Images/03_Trigger_Build_1.png)  
+![03_Trigger_Build_2](../Images/03_Trigger_Build_2.png)	  
 ![03_Trigger_Build_3](../Images/03_Trigger_Build_3.png)	
 > 	Note :
 > 	- Currently build does not stop on failure of SVTs 
