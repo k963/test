@@ -3,8 +3,8 @@
 > This document assumes that you are familiar with Jenkins pipelines at a basic level. To get the basics and setup Jenkins you can refer [article](https://jenkins.io/doc/).
 	
 Walkthrough is divided into two parts
-1. [Import AzSDK Plugin in Jenkins](jenkins.md#import-azsdk-plugin-in-jenkins)
-2. [Run SVT on resources in Jenkins pipeline](jenkins.md#run-svt-on-resources-in-jenkins-pipeline)
+1. [Import AzSDK Plugin in Jenkins](Security_In_CICD_Jenkins_userguide.md#import-azsdk-plugin-in-jenkins)
+2. [Run SVT on resources in Jenkins pipeline](Security_In_CICD_Jenkins_userguide.md#run-svt-on-resources-in-jenkins-pipeline)
 	
 > Note : AzSDK Plugin requires PowerShell to be present on Jenkins Server so currently plugin is supported for Windows machines only.
 > 	
@@ -17,7 +17,7 @@ Currently AzSDK Jenkins Plugin is not hosted on Jenkins community repositories. 
 	
 **Step to upload plugin using Jenkins Web UI**
 	
-   **Go to:** Home Page --> Manage Jenkins --> Manage Plugins -->  Select Advanced --> Upload Plugin file "Azure-Secure-DevOps-Kit.hpi"
+ **Go to:** Home Page --> Manage Jenkins --> Manage Plugins -->  Select Advanced --> Upload Plugin file "Azure-Secure-DevOps-Kit.hpi"
 
 
 ![03_Upload_Plugin](../Images/03_Upload_Plugin.png)  
