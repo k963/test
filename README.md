@@ -1,165 +1,37 @@
-# test
-![img](test1/test2/test3/)
-[a](https://github.com/k963/test#c)  
-[b](https://github.com/k963/test/blob/master/README.md#c-2)  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-  
-# c    
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-  
-# c    
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-a  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-b  
-  
-# c    
-1  
-2
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<h1>My Web Page</h1>
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Work', 8],
+  ['Eat', 2],
+  ['TV', 4],
+  ['Gym', 2],
+  ['Sleep', 8]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'My Average Day', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+</body>
+</html>
